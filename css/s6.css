@@ -1,0 +1,96 @@
+p{
+    font-family: Arial;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: overline;
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+
+.indent{
+    text-indent: 30px;
+}
+
+.pad1{
+    border: solid;
+    padding: 20px; /*cach 4 phia top, right, bottom, left 1 khoang 20px*/
+}
+
+.pad2{
+    border: solid;
+    padding: 20px 40px; /*top-bottom: 20px; right-left: 40px;*/
+}
+
+.pad3{
+    border: solid;
+    padding: 20px 40px 60px; /*top: 20px; right-left: 40px; bottom: 60px*/
+}
+
+.pad4{
+    border: solid;
+    padding: 20px 40px 60px 80px; /*top: 20px; right: 40px
+                                    bottom: 60px; left: 80px*/
+}
+
+.pad5{
+    border: solid;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.mar1{
+    border: solid;
+    margin: 30px;
+}
+
+.mar2{
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bor1{
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: solid;
+}
+
+.bor2{
+    border-style: dashed dotted double solid;
+}
+
+.bor3{
+    border-style: solid;
+    border-color: red; /*dung color thi phai co style truoc*/
+}
+
+.bor4{
+    border-style: solid;
+    border-width: thin thick medium 10px;
+}
+
+.bor5{
+    border: thick dashed blue;
+}
+
+.chuong{
+    border: solid;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.ver{
+    border: solid;
+    height: 50px;
+    text-align: center;
+    line-height:50px;
+}

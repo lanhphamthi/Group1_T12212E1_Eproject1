@@ -1,0 +1,60 @@
+/* type selector */
+p{
+    background-color: aqua;
+    color: green;
+}
+
+/* * selector */
+*{
+    background-color: bisque;
+}
+
+/* class selector */
+.para1{
+    font-family:'Courier New', Courier, monospace
+}
+
+/* id selector */
+#myID{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* * < type < class < id selector */
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+p::first-letter{
+    color:blueviolet
+}
+
+#myID2::first-line{
+    color: red;
+}
+
+h3:first-child{
+    color: blue;
+}
+
+#myID2::before{
+    content: 'Insert before';
+    background-color: aquamarine;
+}
+
+#myID2::after{
+    content: 'Insert after';
+    background-color: aquamarine;
+}
